@@ -1,74 +1,121 @@
-# Context: 
-MCP Servers offer flexible configuration options at both the user and workspace levels. User-level settings automatically apply across all VS Code sessions, </br>
-making this approach particularly practical for Users working with Microsoft technologies.  </br>
-Additionally, you can establish MCP settings specific to workspaces utilizing Microsoft technologies while simultaneously configuring different MCP Servers for non-Microsoft workspace environments. </br> </br>
+# 🚀 Microsoft Copilot MCP Server Setup Guide
 
-# Requirments:
-* Install Visual Studio Code: https://code.visualstudio.com/  </br>
-* Install this Extension: `GitHub Copilot` https://marketplace.visualstudio.com/items?itemName=GitHub.copilot </br>
-<img width="836" height="316" alt="image" src="https://github.com/user-attachments/assets/65854041-0494-4b9e-baf3-84b4dc2c7971" /> </br>
+This guide explains how to set up and use the Microsoft Copilot Model Context Protocol (MCP) Server in Visual Studio Code to access the latest official Microsoft documentation.
 
-* Grab the Official MCP URL from the doc: https://learn.microsoft.com/en-us/training/support/mcp-get-started  >
+## 📋 What is an MCP Server?
+
+MCP Servers offer flexible configuration options at both user and workspace levels:
+- 🔄 User-level settings automatically apply across all VS Code sessions
+- 💼 Particularly practical for users working with Microsoft technologies
+- 🔀 Allows configuring different MCP Servers for Microsoft vs non-Microsoft environments
+
+## ⚙️ Requirements
+
+1. **Install Visual Studio Code**: [Download here](https://code.visualstudio.com/)
+2. **Install GitHub Copilot Extension**: [GitHub Copilot Marketplace](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
+
+![GitHub Copilot Installation](https://github.com/user-attachments/assets/65854041-0494-4b9e-baf3-84b4dc2c7971)
+
+## ️ Adding the MCP Server in VS Code
+
+### Step 1: Open Command Palette
+Type `>MCP` in the command palette (search for `VSC` at the top)
+
+![Command Palette](https://github.com/user-attachments/assets/c0b3bf38-2c75-4c2b-a7c4-bb675628b98c)
+
+### Step 2: Add New Server
+Click "Add New Server"
+
+![Add New Server](https://github.com/user-attachments/assets/9652f5f2-0a14-4de3-8bd3-0d65e623a3af)
+
+### Step 3: Select HTTP Protocol
+Choose `HTTP` protocol
+
+![Select HTTP](https://github.com/user-attachments/assets/51431efc-f484-4ac1-aba7-6d5083b7baff)
+
+### Step 4: Add MCP URL
+Add the official MCP URL:
 ```
 https://learn.microsoft.com/api/mcp
 ```
 
-# Adding the Server in VSC:
-At the top search for `VSC` Type `>MCP`  </br>
-<img width="604" height="67" alt="image" src="https://github.com/user-attachments/assets/c0b3bf38-2c75-4c2b-a7c4-bb675628b98c" /> </br> </br>
-Add New `server`: </br>
-<img width="603" height="75" alt="image" src="https://github.com/user-attachments/assets/9652f5f2-0a14-4de3-8bd3-0d65e623a3af" /></br> </br>
-Select `HTTP` </BR>
-<img width="606" height="85" alt="image" src="https://github.com/user-attachments/assets/51431efc-f484-4ac1-aba7-6d5083b7baff" /> </BR> </br>
-Add the MCP URL  </br>
-<img width="599" height="104" alt="image" src="https://github.com/user-attachments/assets/44fd6819-0aed-45c6-9fbc-ffcfcabd8ed1" /> </br> </br>
-It will generate a random name, and you can change it if you want. I'll leave it as-is: </br>
-<img width="603" height="97" alt="image" src="https://github.com/user-attachments/assets/b3a5fb69-aeb8-4bc7-9c50-4bf561cf0739" /> </br> </br>
-Then  its config will come up, which you can close (👉 if you ever want to remove it, just remove the entire content of this file) </br>
-<img width="1019" height="264" alt="image" src="https://github.com/user-attachments/assets/7228e6ef-baee-4b47-b610-d95bb7502b37" /> </br> </br>
+![Add MCP URL](https://github.com/user-attachments/assets/44fd6819-0aed-45c6-9fbc-ffcfcabd8ed1)
 
-# Configuring Chat:
-Add a new chat window: </br>
-<img width="747" height="75" alt="image" src="https://github.com/user-attachments/assets/bec7cd4c-9403-4e27-83a1-b9ad01fa9f2b" /> </br> </br>
-At the top right corner, click the gear icon: </br>
-<img width="325" height="251" alt="image" src="https://github.com/user-attachments/assets/a7c6ef44-a21a-49dc-8119-60b764a7c6f3" /> </br> </br>
-New Instructions: </br>
-<img width="601" height="82" alt="image" src="https://github.com/user-attachments/assets/eede8ddd-bda2-49e0-9e03-0e1ef42822c4" /> </br> </br>
-User Data Folder: (Recommended) </br>
-<img width="606" height="61" alt="image" src="https://github.com/user-attachments/assets/2e3510cc-b739-49da-b00b-7e32fba0c8ad" /> </br> </br>
-Give it any name you want, then ENTER: </br>
-<img width="607" height="69" alt="image" src="https://github.com/user-attachments/assets/86a28d36-8abe-498a-8c3c-f3d334144a3c" /> </br> </br>
+### Step 5: Configure Server Name
+The server will generate a random name. You can change it if you want - I'll leave it as-is:
+
+![Server Configuration](https://github.com/user-attachments/assets/b3a5fb69-aeb8-4bc7-9c50-4bf561cf0739)
+
+### Step 6: Close Configuration
+The configuration will appear, which you can close. 
+
+👉 If you ever want to remove it, just remove the entire content of this file.
+
+![Configuration Complete](https://github.com/user-attachments/assets/7228e6ef-baee-4b47-b610-d95bb7502b37)
+
+## 📝 Configuring Chat Instructions
+
+### Step 1: Add New Chat Window
+Create a new chat window
+
+![New Chat](https://github.com/user-attachments/assets/bec7cd4c-9403-4e27-83a1-b9ad01fa9f2b)
+
+### Step 2: Open Settings
+Click the gear icon in the top right corner
+
+![Settings Icon](https://github.com/user-attachments/assets/a7c6ef44-a21a-49dc-8119-60b764a7c6f3)
+
+### Step 3: Add New Instructions
+Click "New Instructions"
+
+![New Instructions](https://github.com/user-attachments/assets/eede8ddd-bda2-49e0-9e03-0e1ef42822c4)
+
+### Step 4: Select User Data Folder
+Choose "User Data Folder" (Recommended)
+
+![User Data Folder](https://github.com/user-attachments/assets/2e3510cc-b739-49da-b00b-7e32fba0c8ad)
+
+### Step 5: Give it a Name
+Give it any name you want, then press ENTER
+
+![Name Your Instructions](https://github.com/user-attachments/assets/86a28d36-8abe-498a-8c3c-f3d334144a3c)
+
+### Step 6: Add Instruction Content
 Your instruction should look something along these lines:
-```
+
+```markdown
 ---
 applyTo: '**'
 ---
 You have access to MCP tools called `microsoft_docs_search` and `microsoft_docs_fetch` - these tools allow you to search through and fetch Microsoft's latest official documentation, and that information might be more detailed or newer than what's in your training data set.
 
-If a question includes a Intune, config manager, Exchange, Teams, Outlook, and all other Microsoft products, services, or technology, you should leverage these tools to search for an answer and to fetch content for deep research.
+If a question includes Intune, config manager, Exchange, Teams, Outlook, and all other Microsoft products, services, or technology, you should leverage these tools to search for an answer and to fetch content for deep research.
 ```
-<img width="1458" height="208" alt="image" src="https://github.com/user-attachments/assets/c1ad4f3b-75a5-4b5b-a2a4-f35d3c366cb1" /> </br>
-then `ctrl` + `S` to save, you can now close this window. </br>
-if you got a message to allow sensitive files in the Copilot instruction, you could skip, cause you just saved it above </br>
-<img width="945" height="146" alt="image" src="https://github.com/user-attachments/assets/902b3f03-deeb-48db-955c-0c89d384d6c9" /> </br> </br>
 
+![Instruction Content](https://github.com/user-attachments/assets/c1ad4f3b-75a5-4b5b-a2a4-f35d3c366cb1)
 
-# Time for testing:
-For this example, I will prompt for: </br>
+### Step 7: Save Instructions
+Press `Ctrl` + `S` to save, then you can close this window.
+
+If you get a message to allow sensitive files in the Copilot instruction, you can skip it since you just saved it above.
+
+![Save Instructions](https://github.com/user-attachments/assets/902b3f03-deeb-48db-955c-0c89d384d6c9)
+
+## 🧪 Time for Testing
+
+For this example, I will prompt for:
 ```
 how to create and assign SCEP certificate profiles in Intune?
 ```
-If you did it correctly then it, you should see the reference from the `MCP Server` like so:  </br>
-<img width="1935" height="949" alt="image" src="https://github.com/user-attachments/assets/195f4bc5-4cd1-4b17-ba8b-a669068c011f" /> </br>
 
-* On regular search that did not have to see with our above instructions, it would not pick up any fetching: </br>
-<img width="960" height="187" alt="image" src="https://github.com/user-attachments/assets/a247f0bc-f0df-492d-aa49-a2b128c764f5" />
+If you did it correctly, you should see the reference from the `MCP Server` like so:
 
+![Test Result](https://github.com/user-attachments/assets/195f4bc5-4cd1-4b17-ba8b-a669068c011f)
 
+* On regular search that did not have to do with our above instructions, it would not pick up any fetching:
 
+![Regular Search](https://github.com/user-attachments/assets/a247f0bc-f0df-492d-aa49-a2b128c764f5)
 
-# Repo for server:
-https://github.com/microsoftdocs/mcp
+## 📦 Repository
 
-
-
+Find the official MCP server repository here: [Microsoft MCP Server](https://github.com/microsoftdocs/mcp)
