@@ -67,7 +67,8 @@ If you did it correctly then it, you should see the reference from the `MCP Serv
 
 
 
-
+# Repo for server:
+https://github.com/microsoftdocs/mcp
 
 
 
