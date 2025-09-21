@@ -108,13 +108,19 @@ For this example, I will prompt for:
 how to create and assign SCEP certificate profiles in Intune?
 ```
 
-if you have not configured your Copilot then this popup will come up, choose your sign-in Accordingly <br/>
-<img width="374" height="450" alt="image" src="https://github.com/user-attachments/assets/c2930c45-beb4-4991-a5a9-b87fd59174ee" /> <br/>
+👉 if you have not configured your Copilot then this popup will come up, choose your sign-in Accordingly, Restart after its setup
+
+<img width="374" height="450" alt="image" src="https://github.com/user-attachments/assets/c2930c45-beb4-4991-a5a9-b87fd59174ee" />
+
+👉 A way to see if the MCP server is ready is by: `> MCP` List Servers > Right Click to the one created > then Choose your option accordingly
+
+<img width="590" height="369" alt="image" src="https://github.com/user-attachments/assets/a80643b8-7d26-4694-a4ab-a2446e9341e3" />
+
 
 
 If you did it correctly, you should see the reference from the `MCP Server` like so:
 
-![Test Result](https://github.com/user-attachments/assets/195f4bc5-4cd1-4b17-ba8b-a669068c011f)
+![Test Result](https://github.com/user-attachments/assets/944cdc5e-b52d-4d31-a435-48a52cf6bbdf)
 
 * On regular search that did not have to do with our above instructions, it would not pick up any fetching:
 
