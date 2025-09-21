@@ -36,8 +36,35 @@ New Instructions: </br>
 <img width="601" height="82" alt="image" src="https://github.com/user-attachments/assets/eede8ddd-bda2-49e0-9e03-0e1ef42822c4" /> </br> </br>
 User Data Folder: (Recommended) </br>
 <img width="606" height="61" alt="image" src="https://github.com/user-attachments/assets/2e3510cc-b739-49da-b00b-7e32fba0c8ad" /> </br> </br>
-give it any name you want, then ENTER: </br>
+Give it any name you want, then ENTER: </br>
 <img width="607" height="69" alt="image" src="https://github.com/user-attachments/assets/86a28d36-8abe-498a-8c3c-f3d334144a3c" /> </br> </br>
+Your instruction should look something along these lines:
+```
+---
+applyTo: '**'
+---
+You have access to MCP tools called `microsoft_docs_search` and `microsoft_docs_fetch` - these tools allow you to search through and fetch Microsoft's latest official documentation, and that information might be more detailed or newer than what's in your training data set.
+
+If a question includes a Intune, config manager, Exchange, Teams, Outlook, and all other Microsoft products, services, or technology, you should leverage these tools to search for an answer and to fetch content for deep research.
+```
+<img width="1458" height="208" alt="image" src="https://github.com/user-attachments/assets/c1ad4f3b-75a5-4b5b-a2a4-f35d3c366cb1" /> </br>
+then `ctrl` + `S` to save, you can now close this window. </br>
+if you got a message to allow sensitive files in the Copilot instruction, you could skip, cause you just saved it above </br>
+<img width="945" height="146" alt="image" src="https://github.com/user-attachments/assets/902b3f03-deeb-48db-955c-0c89d384d6c9" /> </br> </br>
+
+
+# Time for testing:
+For this example, I will prompt for: </br>
+```
+how to create and assign SCEP certificate profiles in Intune?
+```
+If you did it correctly then it, you should see the reference from the `MCP Server` like so:  </br>
+<img width="1935" height="949" alt="image" src="https://github.com/user-attachments/assets/195f4bc5-4cd1-4b17-ba8b-a669068c011f" /> </br>
+
+* On regular search that did not have to see with our above instructions, it would not pick up any fetching: </br>
+<img width="960" height="187" alt="image" src="https://github.com/user-attachments/assets/a247f0bc-f0df-492d-aa49-a2b128c764f5" />
+
+
 
 
 
