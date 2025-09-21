@@ -105,7 +105,7 @@ If you get a message to allow sensitive files in the Copilot instruction, you ca
 
 For this example, I will prompt for:
 ```
-how to create and assign SCEP certificate profiles in Intune?
+I'm trying to add a bundle id to an app configuration profile policy in intune but I'm not sure on what format I should use
 ```
 
 👉 if you have not configured your Copilot then this popup will come up, choose your sign-in Accordingly, Restart after its setup
