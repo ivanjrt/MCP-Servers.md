@@ -108,6 +108,10 @@ For this example, I will prompt for:
 how to create and assign SCEP certificate profiles in Intune?
 ```
 
+if you have not configured your Copilot then this popup will come up, choose your sign-in Accordingly <br/>
+<img width="374" height="450" alt="image" src="https://github.com/user-attachments/assets/c2930c45-beb4-4991-a5a9-b87fd59174ee" /> <br/>
+
+
 If you did it correctly, you should see the reference from the `MCP Server` like so:
 
 ![Test Result](https://github.com/user-attachments/assets/195f4bc5-4cd1-4b17-ba8b-a669068c011f)
