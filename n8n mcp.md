@@ -48,7 +48,9 @@ If you did it correctly, then you should see this sample configuration:
 <img width="1217" height="560" alt="image" src="https://github.com/user-attachments/assets/971c69a9-a024-46f8-b8cf-43a3141da83f" />
 
 ### Configuring the settings for the server ###
-We need to adjust this code to it.
+We need to adjust this code to it.  </br>
+👉 (_if you look at the source of the repo you will find there's a version that will attempt to create the flow directly to n8n,
+but it doesn't work very well yet, and you have to do more work, such as  API key and having a paid account with n8n)_
 ```json
 {
   "mcpServers": {
