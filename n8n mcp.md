@@ -1,6 +1,8 @@
 ## ️ Adding the n8n Server in VS Code
+# Source: https://github.com/czlonkowski/n8n-mcp
 # Requirement:
 - Install nodeJS, msi > https://nodejs.org/en/download
+- Make sure you have configured your github account
 
 <img width="656" height="164" alt="image" src="https://github.com/user-attachments/assets/b6ed9d2c-703e-4e5e-a730-af9349885c07" />
 
@@ -42,6 +44,42 @@ Click "Add New Server"
 ### Step 6: give it a name:
 <img width="755" height="116" alt="image" src="https://github.com/user-attachments/assets/f192d4c9-e76d-46bc-b629-b6da0e162b4b" />
 
-If you did it correctly, then you should see this configuration:
-
+If you did it correctly, then you should see this sample configuration:
 <img width="1217" height="560" alt="image" src="https://github.com/user-attachments/assets/971c69a9-a024-46f8-b8cf-43a3141da83f" />
+
+### Configuring the settings for the server ###
+We need to adjust this code to it.
+```json
+{
+  "mcpServers": {
+    "n8n-mcp": {
+      "command": "npx",
+      "args": ["n8n-mcp"],
+      "env": {
+        "MCP_MODE": "stdio",
+        "LOG_LEVEL": "error",
+        "DISABLE_CONSOLE_OUTPUT": "true"
+      }
+    }
+  }
+}
+```
+At the end, it will look like so: -_make sure you save the file_
+
+<img width="672" height="540" alt="image" src="https://github.com/user-attachments/assets/e9cd3ad0-6758-4fc5-90e6-cb0d371b9109" />
+
+If you did it correctly, you can now start the server by going to: `>mcp` `List Servers` -Select the n8n server just created -_right click_  > Start
+
+
+<img width="1193" height="320" alt="image" src="https://github.com/user-attachments/assets/d73403b1-108e-4962-ae5c-75231a6757d3" />
+
+<img width="768" height="133" alt="image" src="https://github.com/user-attachments/assets/96e0f0b7-c034-439b-8146-652c3ff2e328" />
+
+<img width="771" height="196" alt="image" src="https://github.com/user-attachments/assets/b6d474d2-39b3-4c2f-bbfc-03863fa575b7" />
+
+If you did that correctly, then you can see the discovered tools from the repo. 
+
+<img width="1144" height="317" alt="image" src="https://github.com/user-attachments/assets/764c1a03-f3fb-4b8e-b8c8-f53f2c425a66" />
+
+
+
