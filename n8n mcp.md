@@ -1,5 +1,5 @@
 ## ️ Adding the n8n Server in VS Code
-# Source: https://github.com/czlonkowski/n8n-mcp
+Source: https://github.com/czlonkowski/n8n-mcp
 # Requirement:
 - Install nodeJS, msi > https://nodejs.org/en/download
 - Make sure you have configured your github account
@@ -14,7 +14,7 @@
 
 _incl the PowerShell section, time to brew some 🍵_
 
-Install the - Node Package Execute `npx` by 
+Install - Node Package Execute `npx` by 
 ```
 npm install -g npx
 ```
@@ -81,5 +81,50 @@ If you did that correctly, then you can see the discovered tools from the repo.
 
 <img width="1144" height="317" alt="image" src="https://github.com/user-attachments/assets/764c1a03-f3fb-4b8e-b8c8-f53f2c425a66" />
 
+### Create Instructions ### 
 
+<img width="1464" height="256" alt="image" src="https://github.com/user-attachments/assets/9603852d-1b15-4d39-8c56-7a8d3730e2e6" />
 
+New Instructions
+
+<img width="784" height="145" alt="image" src="https://github.com/user-attachments/assets/bac87320-d356-48cc-be47-da4716310ef0" />
+
+<img width="763" height="94" alt="image" src="https://github.com/user-attachments/assets/cc829675-90f7-451f-92bd-19d05ac54f74" />
+
+<img width="767" height="95" alt="image" src="https://github.com/user-attachments/assets/9536cd3b-8592-4684-97b7-d9d3e8d59094" />
+
+Add this and save the file (you can customize this verbose too)
+<img width="1179" height="283" alt="image" src="https://github.com/user-attachments/assets/0beac741-5b94-4422-94bd-15628c858c18" />
+```
+you have access to MCP server call `n8n-mcp`. This tool allows you to search through n8n documentation and workflows to create n8n workflows and nodes.
+If a question is asked about n8n you should always use this tool to find the answer.
+```
+
+### Running your first prompt ### 
+I'm using this as sample:
+```
+create a n8n workflow that will start manually and it will read emails from outlook, setup an IF conditional if emails then send notfications via gotify
+```
+
+Best GPT agents: `GPT-4o, Claude 3.5` (beyond this is overkill, after all, the info will not come from them but the MCP)
+
+It will ask you to `Allow` the conversation 
+
+<img width="320" height="165" alt="image" src="https://github.com/user-attachments/assets/5b633d36-408b-4dcd-ae69-fb8a6b1092e7" /> </br>
+
+<img width="378" height="737" alt="image" src="https://github.com/user-attachments/assets/0a07aa9b-1939-4ae9-9f3c-f87cca122bd4" />
+
+If you did everything correctly, you should now see the MCP that was run and some further prompts in the `show more`
+
+<img width="1589" height="944" alt="image" src="https://github.com/user-attachments/assets/459a5623-0523-409a-bf2d-2751802c3885" />
+
+👉 In some cases, you will find the code in the middle of the context 
+
+Now you can copy the JSON file and drop it in n8n canvas
+
+<img width="1109" height="431" alt="image" src="https://github.com/user-attachments/assets/74c284fb-48de-48a1-947b-a7e83df0bbaa" />
+You're done! 🎉
+
+👉 The red Warnings ❌ here indicate that you need to create credentials, obviously.
+
+<img width="682" height="469" alt="image" src="https://github.com/user-attachments/assets/52879f00-ecf8-4d11-8834-5eec4a01b6ab" />
