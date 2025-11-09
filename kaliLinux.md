@@ -91,9 +91,21 @@ Add instructions:
 
 <img width="222" height="211" alt="image" src="https://github.com/user-attachments/assets/8343b6f4-dc94-4410-8d89-90e7e78300ac" /> </br>
 
-<img width="602" height="60" alt="image" src="https://github.com/user-attachments/assets/ff4be574-b92d-4b1c-97d7-61e7b9f3e31e" />
+<img width="602" height="60" alt="image" src="https://github.com/user-attachments/assets/ff4be574-b92d-4b1c-97d7-61e7b9f3e31e" /> </br>
 
-<img width="607" height="68" alt="image" src="https://github.com/user-attachments/assets/3fc6d1d9-c476-4d01-89a0-b21fb8b222de" />
+<img width="607" height="68" alt="image" src="https://github.com/user-attachments/assets/3fc6d1d9-c476-4d01-89a0-b21fb8b222de" /> </br>
+
+<img width="605" height="63" alt="image" src="https://github.com/user-attachments/assets/d3dc052a-7b30-42d2-819c-2b1c87ae7cbb" /> </br>
+
+```
+---
+applyTo: '**'
+---
+You have access to MCP tools called `kali_mcp` - these tools allow you to search and use an operating system called Kali Linux and run tools and commands available
+
+When you receive a question that involves pentesting, hacking, or any other security-related topic, you should leverage these tools to search for an answer and to fetch content for deep research. in Kali Linux.
+```
+
 
 
 
