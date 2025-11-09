@@ -120,4 +120,9 @@ Note: You might receive a notification like this to proceed with the test:
 
 <img width="461" height="230" alt="image" src="https://github.com/user-attachments/assets/dff90faf-70e4-47e8-88c9-0790e97af25e" />
 
+if everything went `ok`, then now you should see the command running in the Kali box and the VSC
+
+
+2<img width="1183" height="987" alt="image" src="https://github.com/user-attachments/assets/7b52d098-7e27-418d-8e85-ed5a267186ef" />
+
 
