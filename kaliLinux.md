@@ -107,6 +107,17 @@ When you receive a question that involves pentesting, hacking, or any other secu
 ```
 
 
+# Starting the server
 
+<img width="405" height="378" alt="image" src="https://github.com/user-attachments/assets/ba050c6f-b97e-43bf-8e08-0e2178c07fc1" />
+
+<img width="1123" height="141" alt="image" src="https://github.com/user-attachments/assets/92d6ba35-06d9-439d-9fd5-178b6012addb" />
+
+
+- prompt: `Can you please start doing pentest on the CTF machine at IP: 10.10.215.202`
+
+Note: You might receive a notification like this to proceed with the test:
+
+<img width="461" height="230" alt="image" src="https://github.com/user-attachments/assets/dff90faf-70e4-47e8-88c9-0790e97af25e" />
 
 
