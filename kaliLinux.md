@@ -38,12 +38,11 @@ I'd suggest also installing and enabling the `SSH` server,
 pip install mcp, FastMCP 
 pip install --user fastmcp
 ```
-- Download this file https://github.com/Wh0am123/MCP-Kali-Server/blob/main/mcp_server.py . https://github.com/Wh0am123/MCP-Kali-Server/tree/main
+- Download this file https://github.com/Wh0am123/MCP-Kali-Server/blob/main/mcp_server.py https://github.com/Wh0am123/MCP-Kali-Server/tree/main
 For testing purposes, I downloaded in the `C:\logs`
 
 
 # Configuring VSC:
-
 
 Add this JSON to the file, and adjust the `path` and the `IP` accordingly
 ```json
