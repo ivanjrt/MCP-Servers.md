@@ -43,7 +43,35 @@ For testing purposes, I downloaded in the `C:\logs`
 
 
 # Configuring VSC:
+## ️ Adding the MCP Server in VS Code
 
+### Step 1: Open Command Palette
+Type `>MCP` in the command palette (search for `VSC` at the top)
+
+![Command Palette](https://github.com/user-attachments/assets/c0b3bf38-2c75-4c2b-a7c4-bb675628b98c)
+
+### Step 2: Add New Server
+Click "Add New Server"
+
+![Add New Server](https://github.com/user-attachments/assets/9652f5f2-0a14-4de3-8bd3-0d65e623a3af)
+
+### Step 3: Select HTTP Protocol
+Choose `HTTP` protocol
+
+![Select HTTP](https://github.com/user-attachments/assets/51431efc-f484-4ac1-aba7-6d5083b7baff)
+
+### Step 4: Add MCP URL
+Add the official MCP URL: _change this accordingly_
+```
+LINUX_IP
+```
+
+### Step 5: Configure Server Name
+The server will generate a random name. You can change it if you want - I'll leave it as-is:
+
+![Server Configuration](https://github.com/user-attachments/assets/b3a5fb69-aeb8-4bc7-9c50-4bf561cf0739)
+
+### Step 6: Close Configuration
 Add this JSON to the file, and adjust the `path` and the `IP` accordingly
 ```json
 {
@@ -59,3 +87,14 @@ Add this JSON to the file, and adjust the `path` and the `IP` accordingly
     }
 }
 ```
+Add instructions: 
+
+<img width="222" height="211" alt="image" src="https://github.com/user-attachments/assets/8343b6f4-dc94-4410-8d89-90e7e78300ac" /> </br>
+
+<img width="602" height="60" alt="image" src="https://github.com/user-attachments/assets/ff4be574-b92d-4b1c-97d7-61e7b9f3e31e" />
+
+<img width="607" height="68" alt="image" src="https://github.com/user-attachments/assets/3fc6d1d9-c476-4d01-89a0-b21fb8b222de" />
+
+
+
+
