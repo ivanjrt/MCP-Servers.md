@@ -123,6 +123,6 @@ Note: You might receive a notification like this to proceed with the test:
 if everything went `ok`, then now you should see the command running in the Kali box and the VSC
 
 
-2<img width="1183" height="987" alt="image" src="https://github.com/user-attachments/assets/7b52d098-7e27-418d-8e85-ed5a267186ef" />
+<img width="1183" height="987" alt="image" src="https://github.com/user-attachments/assets/7b52d098-7e27-418d-8e85-ed5a267186ef" />
 
 
